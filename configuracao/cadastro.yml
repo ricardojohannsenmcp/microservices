@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver: com.mysql.cj.jdbc.Driver
+    password: j0h4nns3n
+    url: jdbc:mysql://localhost:3306/cadastro?serverTimezone=GMT-3
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
